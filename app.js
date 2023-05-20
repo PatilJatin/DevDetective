@@ -21,7 +21,7 @@ const companyName = document.getElementById('companyName');
 const errorPage = document.getElementsByClassName('404Error')[0];
 const url = `https://api.github.com/users/`;
 
-fetResponse("lovebabbar");
+fetResponse("PatilJatin");
 async function fetResponse(userInput){
     let finalUrl = url + userInput;
     const response  = await fetch(finalUrl);
